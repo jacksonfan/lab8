@@ -3,6 +3,9 @@ function initCamera() {
   //capture($('<Your code here>'),
   //        $('<Your code here>'),
   //        $('<Your code here>'));
+  capture($('#camera #camera-video'),
+          $('#camera #camera-canvas'),
+          $('#camera #camera-button'));
 }
 
 function capture(video, canvas, snapshotButton) {
